@@ -32,7 +32,7 @@ export function WobbleCardDemo() {
           Encrypted Messages
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
+          All the messages are encrypted with end-to-end encryption
         </p>
       </WobbleCard>
       <WobbleCard
@@ -40,12 +40,10 @@ export function WobbleCardDemo() {
         <div className="max-w-sm">
           <h2
             className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Signup for blazing-fast cutting-edge state of the art Gippity AI
-            wrapper today!
+            Sign in with clerk authorization for secure sign in
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+            Clerk Sign In option make everything esay for users to sign in securely without worrying about passwords.
           </p>
         </div>
         <img

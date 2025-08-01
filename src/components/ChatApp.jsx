@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, useCallback } from "react";
 import Peer from "peerjs";
 import MessageInput from "./MessageInput";
 import ChatWindow from "./ChatWindow";
-import CryptoManager from "../encryption"; // Import the new module
+import CryptoManager from "../../encryption"; // Import the new module
 
 const ChatApp = () => {
   const [chatLog, setChatLog] = useState([]);
